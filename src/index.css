@@ -63,3 +63,10 @@ body {
     line-height: normal;
   }
 }
+
+:root {
+  --light-text-color: #406ec4;
+  --dark-text-color: #406ec4;
+  --light-background-color: #b3dee5;
+  --dark-background-color: #fcd721;
+}

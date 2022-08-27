@@ -21,7 +21,7 @@ const Header = (props) => {
     <>
       <SeoHeader />
       <div>
-        <header className="header">
+        <header className="header" style={{ backgroundColor: theme.body }}>
           <NavHashLink to="/#home" className="logo">
             <span style={{ color: theme.text }}> &lt;</span>
             <span className="logo-name" style={{ color: theme.text }}>
