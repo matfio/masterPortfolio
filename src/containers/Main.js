@@ -9,30 +9,32 @@ import Header from "../components/header/Header";
 
 export default class Main extends Component {
   render() {
-    
-      return (
-        <div>
-          <HashRouter>
+    return (
+      <div>
+        <HashRouter>
+          <Header theme={this.props.theme} />
 
-        <Header theme={this.props.theme} />
-          <div id='home'> <Home {...this.props} theme={this.props.theme} /></div>
-             
-            <div id='experience'>
-                <Experience {...this.props} theme={this.props.theme} />
-              
-            </div>
-              <div
-                id='education'><Education {...this.props} theme={this.props.theme} /></div>
-  
-             
-              <div  id='contact'> <Contact {...this.props} theme={this.props.theme} /></div>
+          <div id="home">
+            <Home {...this.props} theme={this.props.theme} />
+          </div>
 
-              
-              <div id='projects'> <Projects {...this.props} theme={this.props.theme} /></div>
+          <div id="experience">
+            <Experience {...this.props} theme={this.props.theme} />
+          </div>
 
-              </HashRouter>
-        </div>
-      );
-    }
+          <div id="education">
+            <Education {...this.props} theme={this.props.theme} />
+          </div>
+
+          <div id="projects">
+            <Projects {...this.props} theme={this.props.theme} />
+          </div>
+
+          <div id="contact">
+            <Contact {...this.props} theme={this.props.theme} />
+          </div>
+        </HashRouter>
+      </div>
+    );
   }
-
+}
