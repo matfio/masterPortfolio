@@ -28,7 +28,7 @@ export default function Greeting(props) {
                 <Button
                   text="Download Resume"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={greeting.resumeDownload}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

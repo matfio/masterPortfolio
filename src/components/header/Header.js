@@ -85,16 +85,16 @@ const Header = (props) => {
             </li>
 
             <li>
-              <NavHashLink
-                to="/#contact"
-                tag={NavHashLink}
+              <a
                 activeStyle={{ fontWeight: "bold" }}
+                target="_blank"
+                href={greeting.resumeLink}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
               >
-                Contact Me
-              </NavHashLink>
+                Resume
+              </a>
             </li>
           </ul>
         </header>

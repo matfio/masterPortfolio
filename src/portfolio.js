@@ -5,13 +5,13 @@ const settings = {};
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Mattia Fiorio's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Mattia Fiorio's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "matfio.github.io",
   },
 };
 
@@ -22,9 +22,11 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1C9ktgnEYFnVrRrR3h_V3qFDUkrYJETm4/view",
+  resumeDownload:
+    "https://drive.google.com/uc?export=download&id=1C9ktgnEYFnVrRrR3h_V3qFDUkrYJETm4",
+  portfolio_repository: "https://github.com/matfio/masterPortfolio",
+  githubProfile: "https://github.com/matfio",
 };
 
 const socialMediaLinks = [
@@ -261,17 +263,28 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "IT-Universitetet i København",
+      subtitle: "MSc Video Games Technology",
+      logo_path: "itu.png",
+      alt_name: "",
+      duration: "2012 - 2014",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "📚 Coursework of data mining, design, game engines, game development.",
+        "📚 Successfully developed various games in different roles: designer, programmer and project manager.",
+        "📚 Participated as a programmer in The National Academy of Digital and Interactive Entertainment (DADIU). Developed and released a full game on Google Play Store.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://en.itu.dk/",
+    },
+    {
+      title: "Politecnico di Milano",
+      subtitle: " BSc in IT Engineering",
+      logo_path: "PolitecnicoDiMilano.png",
+      alt_name: "",
+      duration: "2008 - 2011",
+      descriptions: [
+        "📚 Coursework of software engineering, databases and web, computer architectures, robotics, communication science and knowledgeengineering.",
+      ],
+      website_link: "https://www.polimi.it/en",
     },
   ],
 };
@@ -281,139 +294,45 @@ const certifications = {
 };
 
 // Experience Page
+
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Here is my journey",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many technologies in both gaming and e-learning. My tasks have span through a wide variety of disciplines all the way from programming videogames features to ETL pipelines. I love optimize development for my fellow programmers, this is why I also took some of scrum master and PO responsibilities.",
   header_image_path: "experience.svg",
-  sections: [
+  experience: [
     {
-      title: "Work",
-      experiences: [
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+      title: "Web developer",
+      subtitle: "Clio",
+      logo_path: "clio-logo_black_512.svg",
+      alt_name: "",
+      duration: "2020 - Present",
+      descriptions: [
+        "⚡ Creating and updating the newest version of Clio's SaaS e-learning platform through the usage of React components.",
+        "⚡ Implementing tests of said components through jest and E2E tests using Selenium.",
+        "⚡ Extending and refactoring GitHub actions to leverage reusable workflows.",
+        "⚡ Pruning and prioritizing the product backlog involving stakeholders and the rest of the development teams to optimize deliveries.",
+        "⚡Promoting agile methodology by acting as facilitator during agile rituals and by introducing story points estimations.",
+        "⚡Bolstering communication and ownership by delegating implementation details to coworkers.",
       ],
+      website_link: "https://clio.me/",
     },
     {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
+      title: "Software Engineer",
+      subtitle: "MovieStarPlanet",
+      logo_path: "msp.png",
+      alt_name: "",
+      duration: "2013 - 2020",
+      descriptions: [
+        "⚡ Developed in-game features for a massively multiplayer game with more than 100 million users split between web browsers, android and iOS devices. Followed design documents while introducing several UI and usability improvements to the user experience. Coded back-end robust and optimized C# .NET functionalities to retrieve and save data to support said features with particular attention to possible security breaches.",
+        "⚡ Streamlined the creation of games by developing a company-wide framework based on Unity3D that provided plug and play elements to game teams.",
+        "⚡ Worked within an agile scrum team implementing multiple features such as, player-to-player communication through a NodeJS server, in-game shops with dynamic scrollable lists etc.",
+        "⚡ Boosted productivity by drastically reducing time spent on marketing and support tasks by introducing tools for batch management of data and unification of publishing functionalities across all different game domains. The tools were made using ASP.NET with iterative development customer-oriented approach.",
+        "⚡ Conducted research about analytics best practices/technologies and developed the analytics pipeline of the company. The pipeline handled 50+ million events per day which were archived into the Snowflake warehouse and processed through PySpark procedures. Presented and taught architecture to other engineers.",
+        "⚡ Applied agile methodologies proactively focusing on improving and solving problems related to the development process. Held the rule of scrum master while also acting as facilitator in several meetings.",
       ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
+      website_link: "https://clio.me/",
     },
   ],
 };

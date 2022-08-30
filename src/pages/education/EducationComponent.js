@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import Educations from "../../containers/education/Educations";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
+import { competitiveSites, degrees } from "../../portfolio";
 import "./EducationComponent.css";
+
 import { Fade } from "react-reveal";
+import Educations from "../../containers/education/Educations";
 
 class Education extends Component {
   render() {
@@ -28,13 +28,29 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  Where I received my higher education
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                <p
+                  className="heading-detail-text"
+                  style={{ color: theme.secondaryText }}
+                >
+                  I started my higher education with the fascination of IT and
+                  technology. The first degree I achieved has been in IT
+                  engineering in Italy. Afterwards, I decided to move to
+                  Copenhagen to receive my specialization is designing and
+                  developing videogames.
+                </p>
+                {
+                  //<CompetitiveSites logos={competitiveSites.competitiveSites} />
+                }
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
+          <Educations
+            theme={this.props.theme}
+            list={degrees.degrees}
+            title="Degrees Received"
+          />
         </div>
         <TopButton theme={this.props.theme} />
       </div>
