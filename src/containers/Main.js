@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Header from "../components/header/Header";
 

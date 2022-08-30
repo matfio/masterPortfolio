@@ -9,11 +9,12 @@ class Home extends Component {
       <div
         style={{
           paddingTop: "80px",
-          marginBottom: "120px",
         }}
       >
         <Greeting theme={this.props.theme} />
-        <Skills theme={this.props.theme} />
+        {
+          //<Skills theme={this.props.theme} />
+        }
         <TopButton theme={this.props.theme} />
       </div>
     );

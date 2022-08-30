@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import TopButton from "../../components/topButton/TopButton";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites, degrees } from "../../portfolio";
+import { degrees } from "../../portfolio";
 import "./EducationComponent.css";
 
 import { Fade } from "react-reveal";

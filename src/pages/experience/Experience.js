@@ -39,12 +39,13 @@ class Experience extends Component {
               </div>
             </div>
           </Fade>
+          <Educations
+            theme={this.props.theme}
+            list={experience.experience}
+            title="Experiences"
+          />
         </div>
-        <Educations
-          theme={this.props.theme}
-          list={experience.experience}
-          title="Experiences"
-        />
+
         <TopButton theme={this.props.theme} />
       </div>
     );

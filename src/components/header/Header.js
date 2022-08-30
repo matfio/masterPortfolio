@@ -88,6 +88,7 @@ const Header = (props) => {
               <a
                 activeStyle={{ fontWeight: "bold" }}
                 target="_blank"
+                rel="noopener noreferrer"
                 href={greeting.resumeLink}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}

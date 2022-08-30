@@ -1,21 +1,19 @@
 .experience-main {
   width: 100%;
-  padding-top: 80px;
-  margin-bottom: 120px;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-color: var(--dark-background-color);
+  clip-path: polygon(0 120px, 100% 0%, 100% calc(100% - 120px), 0% 100%);
 }
 
-.experience-main:before {
-  content: "";
-  right: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform: skewY(-5deg);
-  transform-origin: -30% 0;
-  outline: 1px solid transparent;
-  backface-visibility: hidden;
-  background-color: var(--dark-background-color);
-  z-index: -1;
+.experience-main .card-body {
+  background-color: var(--body-background-color);
+  box-shadow: 5px 5px 5px var(--darker-background-color);
+}
+
+.experience-main .card-img {
+  background-color: var(--body-background-color);
+  box-shadow: 5px 5px 5px var(--darker-background-color);
 }
 
 .basic-experience {
