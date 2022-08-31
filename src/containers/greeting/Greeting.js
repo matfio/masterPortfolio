@@ -29,7 +29,7 @@ export default function Greeting(props) {
                 <Button
                   text="Download Resume"
                   newTab={false}
-                  href={process.env.PUBLIC_URL + "Mattia-Fiorio-resume.pdf"}
+                  href={require(`../../assests/resume/Mattia-Fiorio-resume.pdf`)}
                   theme={theme}
                   className="portfolio-repo-btn"
                   download={true}

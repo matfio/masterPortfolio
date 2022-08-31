@@ -84,7 +84,7 @@ const Header = (props) => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={process.env.PUBLIC_URL + "Mattia-Fiorio-resume.pdf"}
+                href={require(`../../assests/resume/Mattia-Fiorio-resume.pdf`)}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
