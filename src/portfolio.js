@@ -21,10 +21,6 @@ const greeting = {
   logo_name: "Mattia Fiorio",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1C9ktgnEYFnVrRrR3h_V3qFDUkrYJETm4/view",
-  resumeDownload:
-    "https://drive.google.com/uc?export=download&id=1C9ktgnEYFnVrRrR3h_V3qFDUkrYJETm4",
   portfolio_repository: "https://github.com/matfio/masterPortfolio",
   githubProfile: "https://github.com/matfio",
 };
