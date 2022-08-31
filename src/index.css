@@ -65,11 +65,8 @@ body {
 }
 
 :root {
-  --light-text-color: #406ec4;
-  --dark-text-color: #406ec4;
-  --light-background-color: #b3dee5;
-  --lighter-background-color: #e4e4e4;
-  --dark-background-color: #fcd721;
-  --darker-background-color: #a78b00;
-  --body-background-color: #fffefd;
+  --dark-background-color: #ffc300;
+  --darker-background-color: #a57e00;
+  --body-background-color: #edf9fe;
+  --highlight-color: #ceeffd;
 }

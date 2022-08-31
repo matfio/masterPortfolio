@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import Button from "../../components/button/Button";
+import ReactPlayer from "react-player";
 
 class DegreeCard extends Component {
   render() {
@@ -33,15 +35,15 @@ class DegreeCard extends Component {
               style={{ backgroundColor: theme.headerColor }}
             >
               <div className="body-header-title">
-                <h2 className="card-title" style={{ color: theme.text }}>
+                <h2 className="card-title" style={{ color: theme.body }}>
                   {degree.title}
                 </h2>
-                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                <h3 className="card-subtitle" style={{ color: theme.body }}>
                   {degree.subtitle}
                 </h3>
               </div>
               <div className="body-header-duration">
-                <h3 className="duration" style={{ color: theme.text }}>
+                <h3 className="duration" style={{ color: theme.body }}>
                   {degree.duration}
                 </h3>
               </div>
@@ -58,21 +60,21 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
+              {degree.video_url && (
+                <ReactPlayer
+                  url={degree.video_url}
+                  controls={true}
+                  width="100%"
+                />
+              )}
               {degree.website_link && (
-                <a
+                <Button
+                  text="Visit Website"
+                  newTab={true}
                   href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                  </div>
-                </a>
+                  theme={theme}
+                  className="visit-btn"
+                ></Button>
               )}
             </div>
           </div>

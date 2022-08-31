@@ -26,9 +26,11 @@ class Education extends Component {
                 <h1 className="heading-text" style={{ color: theme.text }}>
                   Education
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
+                {/* 
+                  <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Where I received my higher education
                 </h3>
+                */}
                 <p
                   className="heading-detail-text"
                   style={{ color: theme.secondaryText }}

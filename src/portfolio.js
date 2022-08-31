@@ -266,7 +266,7 @@ const experience = {
         "⚡Promoting agile methodology by acting as facilitator during agile rituals and by introducing story points estimations.",
         "⚡Bolstering communication and ownership by delegating implementation details to coworkers.",
       ],
-      website_link: "https://clio.me/",
+      video_url: "https://vimeo.com/656633848/b5f7ae097a",
     },
     {
       title: "Software Engineer",
@@ -282,7 +282,7 @@ const experience = {
         "⚡ Conducted research about analytics best practices/technologies and developed the analytics pipeline of the company. The pipeline handled 50+ million events per day which were archived into the Snowflake warehouse and processed through PySpark procedures. Presented and taught architecture to other engineers.",
         "⚡ Applied agile methodologies proactively focusing on improving and solving problems related to the development process. Held the rule of scrum master while also acting as facilitator in several meetings.",
       ],
-      website_link: "https://clio.me/",
+      website_link: "https://corporate.moviestarplanet.com/",
     },
   ],
 };

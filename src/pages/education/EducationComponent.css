@@ -4,12 +4,12 @@
 }
 
 .education-main .card-body {
-  background-color: var(--body-background-color);
+  background-color: var(--highlight-color);
   box-shadow: 5px 5px 5px var(--lighter-background-color);
 }
 
 .education-main .card-img {
-  background-color: var(--body-background-color);
+  background-color: var(--highlight-color);
   box-shadow: 5px 5px 5px var(--lighter-background-color);
 }
 
