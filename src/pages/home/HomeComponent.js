@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Greeting from "../../containers/greeting/Greeting";
-import Skills from "../../containers/skills/Skills";
 import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {

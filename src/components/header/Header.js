@@ -22,7 +22,7 @@ const Header = (props) => {
       <SeoHeader />
       <div>
         <header className="header" style={{ backgroundColor: theme.body }}>
-          <NavHashLink to="/#home" className="logo">
+          <NavHashLink to="#home" className="logo">
             <span style={{ color: theme.text }}> &lt;</span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
@@ -36,9 +36,8 @@ const Header = (props) => {
           <ul className="menu" style={{ backgroundColor: theme.body }}>
             <li>
               <NavHashLink
-                to="/#home"
+                to="#home"
                 tag={NavHashLink}
-                activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
@@ -49,9 +48,8 @@ const Header = (props) => {
 
             <li>
               <NavHashLink
-                to="/#experience"
+                to="#experience"
                 tag={NavHashLink}
-                activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
@@ -61,9 +59,8 @@ const Header = (props) => {
             </li>
             <li>
               <NavHashLink
-                to="/#education"
+                to="#education"
                 tag={NavHashLink}
-                activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
@@ -73,9 +70,8 @@ const Header = (props) => {
             </li>
             <li>
               <NavHashLink
-                to="/#projects"
+                to="#projects"
                 tag={NavHashLink}
-                activeStyle={{ fontWeight: "bold" }}
                 style={{ color: theme.text }}
                 onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                 onMouseOut={(event) => onMouseOut(event)}
@@ -86,7 +82,6 @@ const Header = (props) => {
 
             <li>
               <a
-                activeStyle={{ fontWeight: "bold" }}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={greeting.resumeLink}

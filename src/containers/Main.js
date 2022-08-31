@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
@@ -9,7 +9,7 @@ import Header from "../components/header/Header";
 const Main = (props) => {
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter>
         <Header theme={props.theme} />
 
         <div id="home">
@@ -27,7 +27,7 @@ const Main = (props) => {
         <div id="projects">
           <Projects {...props} theme={props.theme} />
         </div>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 };
