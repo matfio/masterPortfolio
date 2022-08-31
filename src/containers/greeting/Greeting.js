@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 
 export default function Greeting(props) {
   const theme = props.theme;
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -27,10 +28,11 @@ export default function Greeting(props) {
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="Download Resume"
-                  newTab={true}
-                  href={greeting.resumeDownload}
+                  newTab={false}
+                  href={process.env.PUBLIC_URL + "Mattia-Fiorio-resume.pdf"}
                   theme={theme}
                   className="portfolio-repo-btn"
+                  download={true}
                 />
               </div>
             </div>
