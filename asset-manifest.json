@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.3a5c2730.chunk.css",
-    "main.js": "./static/js/main.e7c0c194.chunk.js",
-    "main.js.map": "./static/js/main.e7c0c194.chunk.js.map",
+    "main.css": "./static/css/main.031c6efe.chunk.css",
+    "main.js": "./static/js/main.89b3fbeb.chunk.js",
+    "main.js.map": "./static/js/main.89b3fbeb.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.25403663.js",
     "runtime-main.js.map": "./static/js/runtime-main.25403663.js.map",
     "static/js/2.980e112d.chunk.js": "./static/js/2.980e112d.chunk.js",
     "static/js/2.980e112d.chunk.js.map": "./static/js/2.980e112d.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.07b66d22b2b0135e90c776707195f8b2.js": "./precache-manifest.07b66d22b2b0135e90c776707195f8b2.js",
+    "precache-manifest.4d27d6bfc6be46dc492d226db9a4b76f.js": "./precache-manifest.4d27d6bfc6be46dc492d226db9a4b76f.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.3a5c2730.chunk.css.map": "./static/css/main.3a5c2730.chunk.css.map",
+    "static/css/main.031c6efe.chunk.css.map": "./static/css/main.031c6efe.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Mattia-Fiorio-resume.pdf": "./static/media/Mattia-Fiorio-resume.5ec98ea8.pdf",
     "static/media/PolitecnicoDiMilano.png": "./static/media/PolitecnicoDiMilano.886100ef.png",
@@ -40,7 +40,7 @@
     "static/media/jsFramework.svg": "./static/media/jsFramework.5b4a6449.svg",
     "static/media/legato_logo.png": "./static/media/legato_logo.c597fbde.png",
     "static/media/manOnTable.svg": "./static/media/manOnTable.83ac24fb.svg",
-    "static/media/mattiaWink.png": "./static/media/mattiaWink.d82766af.png",
+    "static/media/mattiaWink.png": "./static/media/mattiaWink.0194ef90.png",
     "static/media/msp.png": "./static/media/msp.cbbe6b85.png",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "./static/media/nptel_logo.95a12a2b.png",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.25403663.js",
     "static/js/2.980e112d.chunk.js",
-    "static/css/main.3a5c2730.chunk.css",
-    "static/js/main.e7c0c194.chunk.js"
+    "static/css/main.031c6efe.chunk.css",
+    "static/js/main.89b3fbeb.chunk.js"
   ]
 }
