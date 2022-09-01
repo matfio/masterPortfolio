@@ -49,17 +49,19 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence, i) => {
-                return (
-                  <p
-                    key={i}
-                    className="content-list"
-                    style={{ color: theme.text }}
-                  >
-                    {sentence}
-                  </p>
-                );
-              })}
+              <ul>
+                {degree.descriptions.map((sentence, i) => {
+                  return (
+                    <li
+                      key={i}
+                      className="content-list"
+                      style={{ color: theme.text }}
+                    >
+                      {sentence}
+                    </li>
+                  );
+                })}
+              </ul>
               {degree.video_url && (
                 <ReactPlayer
                   url={degree.video_url}

@@ -60,6 +60,7 @@
 
 .menu {
   font-family: "Google Sans Regular";
+  max-height: 60px;
 }
 
 .header .menu {

@@ -8,12 +8,10 @@
 
 .experience-main .card-body {
   background-color: var(--body-background-color);
-  box-shadow: 5px 5px 5px var(--darker-background-color);
 }
 
 .experience-main .card-img {
   background-color: var(--body-background-color);
-  box-shadow: 5px 5px 5px var(--darker-background-color);
 }
 
 .basic-experience {
