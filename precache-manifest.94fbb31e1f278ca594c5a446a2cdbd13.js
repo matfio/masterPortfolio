@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e90c07e7731c1abf443673936ddbc33",
+    "revision": "3a5b831fa6468be5d58881978d85c73d",
     "url": "./index.html"
   },
   {
-    "revision": "371737a53654357d863a",
+    "revision": "9090c604c8f70a3cc9e4",
     "url": "./static/css/main.031c6efe.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.980e112d.chunk.js"
   },
   {
-    "revision": "371737a53654357d863a",
-    "url": "./static/js/main.89b3fbeb.chunk.js"
+    "revision": "9090c604c8f70a3cc9e4",
+    "url": "./static/js/main.689d9c36.chunk.js"
   },
   {
     "revision": "4b147f0c6eff667ebf15",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/GoogleSans-Regular.b5c77a6a.ttf"
   },
   {
-    "revision": "5ec98ea8ce7beb6eb60f5c83a7e50d4a",
-    "url": "./static/media/Mattia-Fiorio-resume.5ec98ea8.pdf"
+    "revision": "4300067bb00b307a233824e4b8a932fc",
+    "url": "./static/media/Mattia-Fiorio-resume.4300067b.pdf"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
