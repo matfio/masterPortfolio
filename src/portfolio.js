@@ -262,7 +262,6 @@ const experience = {
         "Implementing tests of said components through jest and E2E tests using Selenium.",
         "Extending and refactoring GitHub actions to leverage reusable workflows.",
       ],
-      video_url: "https://vimeo.com/656633848/b5f7ae097a",
     },
     {
       title: "Software Engineer",
