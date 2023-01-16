@@ -13,7 +13,7 @@ const Projects = (props) => {
 
   //A quick way to request and map projects without re-deploying the project
   useEffect(() => {
-    fetch(`https://api.github.com/users/matfio/repos`)
+    fetch(`https://api.github.com/users/mttfiorio/repos`)
       .then((response) => response.json())
       .then(async (data) => {
         const mappedData = await ProjectsMapper(data);

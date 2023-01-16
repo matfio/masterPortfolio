@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Mattia Fiorio's Portfolio",
     type: "website",
-    url: "matfio.github.io",
+    url: "mttfiorio.github.io",
   },
 };
 
@@ -21,14 +21,14 @@ const greeting = {
   logo_name: "Mattia Fiorio",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  portfolio_repository: "https://github.com/matfio/masterPortfolio",
-  githubProfile: "https://github.com/matfio",
+  portfolio_repository: "https://github.com/mttfiorio/masterPortfolio",
+  githubProfile: "https://github.com/mttfiorio",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/matfio",
+    link: "https://github.com/mttfiorio",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -39,10 +39,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Gmail",
-    link: "mailto:mtt.fiorio.jobs@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "E-mail",
+    link: "mailto:fiorio.jobs@outlook.com",
+    fontAwesomeIcon: "fa-windows",
+    backgroundColor: "#F25022", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 
