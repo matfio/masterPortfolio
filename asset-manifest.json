@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a68253ac.css",
-    "main.js": "./static/js/main.c44987ab.js",
+    "main.js": "./static/js/main.4f1fddaa.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/mattiaWink.png": "./static/media/mattiaWink.a8ee5580ca1d7cd074db.png",
     "static/media/PolitecnicoDiMilano.png": "./static/media/PolitecnicoDiMilano.ccdbe45e33302211c0d6.png",
@@ -66,10 +66,10 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.a68253ac.css.map": "./static/css/main.a68253ac.css.map",
-    "main.c44987ab.js.map": "./static/js/main.c44987ab.js.map"
+    "main.4f1fddaa.js.map": "./static/js/main.4f1fddaa.js.map"
   },
   "entrypoints": [
     "static/css/main.a68253ac.css",
-    "static/js/main.c44987ab.js"
+    "static/js/main.4f1fddaa.js"
   ]
 }
